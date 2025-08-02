@@ -11,6 +11,7 @@ This project controls 4 servo motors using Arduino code to simulate a basic walk
 - Tinkercad (for Arduino simulation)
 - Arduino UNO
 - 4 Servo Motors
+https://www.tinkercad.com/things/0PcWFhfNMiQ-4servo
 
  Walking Algorithm
 1. Initialize all servos at 90°.
