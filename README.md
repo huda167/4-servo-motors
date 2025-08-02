@@ -24,5 +24,20 @@ This project controls 4 servo motors using Arduino code to simulate a basic walk
 - Open the simulation in Tinkercad.
 - Upload the provided Arduino code.
 - Start the simulation to see servo sweep and walking logic.
+  
+algorithm
+Initialize all servos to 90°
 
+Loop:
+  // Step with right leg
+  Shift weight to left leg
+  Lift right leg (servo angle - up)
+  Move right leg forward
+  Place right leg down (servo angle - down)
+  
+  // Step with left leg
+  Shift weight to right leg
+  Lift left leg
+  Move left leg forward
+  Place left leg down
  
